@@ -1,0 +1,24 @@
+{
+  "name": "seneca-noob-test-redis-transport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "base.js",
+  "dependencies": {
+    "seneca": "^1.2.0",
+    "seneca-redis-transport": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otaviosoares/seneca-noob-test-redis-transport.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otaviosoares/seneca-noob-test-redis-transport/issues"
+  },
+  "homepage": "https://github.com/otaviosoares/seneca-noob-test-redis-transport#readme"
+}

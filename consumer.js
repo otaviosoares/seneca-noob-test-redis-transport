@@ -15,7 +15,9 @@ seneca
     port: 10418
   })
   .act('role:auth,cmd:login,email:' + process.argv[2], function(err, result) {
-    if (err) console.log('ocorreu um erro:', err);
+    if (err) {
+      console.log('ocorreu um erro: ' + err.orig.code);
+    }
     console.log(result);
   })
   .close();
